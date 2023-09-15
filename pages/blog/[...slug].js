@@ -1,13 +1,12 @@
 import { useRouter } from "next/router";
 
-function PortfolioProjectPage() {
+function BlogPostPage() {
   const router = useRouter();
 
   return (
     <div>
-      <h1>Portfolio Project Page</h1>
+      <h1>Blog Post Page</h1>
     </div>
   );
 }
-
-export default PortfolioProjectPage;
+export default BlogPostPage;
